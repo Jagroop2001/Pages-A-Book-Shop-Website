@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cardo", serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+.jumbotron-style {
+  background-color: #1b3764;
+}
+.bg-light {
+  background-color: none !important;
+}
+
+.social-link-style {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+button.btn.btn-warning.px-4 {
+  border-radius: 0;
+}
+
+button.navbar-toggler.navbar-hamburger-style {
+  color: white;
+  background: white;
+}
+
+.welcome-style {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.title-style {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+}
+
+.description-style {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.order-btn-style {
+  border-radius: 0px;
+}
+
+.free-demo-style {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-size: 18px;
+  align-self: center;
+}
