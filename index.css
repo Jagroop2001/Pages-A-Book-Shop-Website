@@ -92,3 +92,6 @@ button.navbar-toggler.navbar-hamburger-style {
 button.btn.btn-outline-warning.get-book-now-style.btn-lg {
   border-radius: 0px;
 }
+.col-md-5.card {
+  margin-right: 2rem;
+}
