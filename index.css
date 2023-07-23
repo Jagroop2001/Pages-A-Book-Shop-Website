@@ -76,9 +76,9 @@ button.navbar-toggler.navbar-hamburger-style {
 .book-detail-description-style {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #969aa0;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
 }
 
 .vertical-line {
