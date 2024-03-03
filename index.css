@@ -14,12 +14,12 @@ html {
 .bg-light {
   background-color: none !important;
 }
-
-.social-link-style {
-  height: 2.2rem;
-  width: 2.2rem;
+/* Styling for navbar social-media icons starts */
+.nav-link i{
+  margin-top: 0.5rem;
+  font-size: 2rem;
 }
-
+/* Styling for navbar social-media icons ends */
 button.btn.btn-warning.px-4 {
   border-radius: 0;
 }
@@ -108,3 +108,4 @@ p.footer-text-style {
   font-weight: 500;
   align-self: end;
 }
+

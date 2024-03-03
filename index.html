@@ -1,359 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pages -A Book Purchasing Website</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cardo&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div>
-        <div class="jumbotron jumbotron-fluid jumbotron-style">
-          <div class="container">
-            <nav class="navbar navbar-expand-lg">
-              <button
-                class="navbar-toggler navbar-hamburger-style mb-2"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">
-                  <img
-                    src="./images/Logo.png"
-                    class="d-inline-block align-top"
-                    alt="logo"
-                  />
-                </a>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"
-                      ><img
-                        src="./images/Facebook.png"
-                        class="d-inline-block align-top social-link-style"
-                        alt="facebook"
-                    /></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"
-                      ><img
-                        src="./images/Twitter.png"
-                        class="d-inline-block align-top social-link-style"
-                        alt="Twitter"
-                    /></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"
-                      ><img
-                        src="./images/LinkedIn.png"
-                        class="d-inline-block align-top social-link-style"
-                        alt="LinkedIn"
-                    /></a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Content</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="button" class="btn btn-warning px-4">
-                      Order Today
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <div class="container d-flex justify-content-center my-5">
-            <div class="row w-75 h-50 align-items-center">
-              <div class="col-md-7">
-                <div class="container align-items-center">
-                  <p class="text-light welcome-style">
-                    <i>-Welcome to Pages</i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pages -A Book Purchasing Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet" />
+  <!-- fontawsome cdn attachment -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="jumbotron jumbotron-fluid jumbotron-style">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler navbar-hamburger-style mb-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">
+                <img src="./images/Logo.png" class="d-inline-block align-top" alt="logo" />
+              </a>
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Content</a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-warning px-4">
+                    Order Today
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="container d-flex justify-content-center my-5">
+          <div class="row w-75 h-50 align-items-center">
+            <div class="col-md-7">
+              <div class="container align-items-center">
+                <p class="text-light welcome-style">
+                  <i>-Welcome to Pages</i>
+                </p>
+                <p class="text-light h1 title-style">
+                  Books are uniquely portable magic
+                </p>
+                <p class="text-light description-style">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form.
+                </p>
+                <div class="row">
+                  <button type="button" class="btn btn-warning px-4 py-3 btn-lg col-md-5 order-btn-style mx-4">
+                    Order Today
+                  </button>
+                  <p class="text-light col-md-5 free-demo-style">
+                    <u>Read Free Demo</u>
                   </p>
-                  <p class="text-light h1 title-style">
-                    Books are uniquely portable magic
-                  </p>
-                  <p class="text-light description-style">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form.
-                  </p>
-                  <div class="row">
-                    <button
-                      type="button"
-                      class="btn btn-warning px-4 py-3 btn-lg col-md-5 order-btn-style mx-4"
-                    >
-                      Order Today
-                    </button>
-                    <p class="text-light col-md-5 free-demo-style">
-                      <u>Read Free Demo</u>
-                    </p>
-                  </div>
                 </div>
               </div>
-              <div class="col-md-5 h-50">
-                <img
-                  src="./images/Book.png"
-                  class="img-fluid"
-                  style="max-width: 100%; height: auto"
-                />
-              </div>
             </div>
-          </div>
-          <div style="height: 10px"></div>
-        </div>
-      </div>
-    </header>
-    <section>
-      <p class="authors-book-style m-3">Author's Book Include</p>
-      <div class="container d-flex justify-content-center my-5">
-        <div class="row w-75 h-50 align-items-center">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-6">
-                <img
-                  src="./images/AtomicOne.png"
-                  class="img-fluid"
-                  style="max-width: 100%; height: auto"
-                />
-              </div>
-              <div class="col-md-6">
-                <p class="book-detail-head-style">Atomic One’s</p>
-                <p class="book-detail-description-style">
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <p class="book-detail-description-style">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Soluta corporis totam ad, cupiditate natus iure maxime sequi?
-                  Aliquid, quisquam quos!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-6">
-                <img
-                  src="./images/DarkLight.png"
-                  class="img-fluid"
-                  style="max-width: 100%; height: auto"
-                />
-              </div>
-              <div class="col-md-6">
-                <p class="book-detail-head-style">The Dark Light</p>
-                <p class="book-detail-description-style">
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <p class="book-detail-description-style">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Soluta corporis totam ad, cupiditate natus iure maxime sequi?
-                  Aliquid, quisquam quos!
-                </p>
-              </div>
+            <div class="col-md-5 h-50">
+              <img src="./images/Book.png" class="img-fluid" style="max-width: 100%; height: auto" />
             </div>
           </div>
         </div>
+        <div style="height: 10px"></div>
       </div>
-    </section>
-
-    <section>
-      <div
-        class="container-fluid d-flex justify-content-center mt-5"
-        style="background-color: #f6f8fc"
-      >
-        <div class="row w-75 h-50 align-items-center mb-5">
-          <div class="col-md-6 my-5">
-            <img
-              src="./images/AboutAuthor.png"
-              class="img-fluid"
-              style="max-width: 100%; height: auto"
-            />
-          </div>
-          <div class="col-md-6">
-            <div class="w-75">
-              <p class="authors-book-style" style="text-align: left">
-                About Author
+    </div>
+  </header>
+  <section>
+    <p class="authors-book-style m-3">Author's Book Include</p>
+    <div class="container d-flex justify-content-center my-5">
+      <div class="row w-75 h-50 align-items-center">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./images/AtomicOne.png" class="img-fluid" style="max-width: 100%; height: auto" />
+            </div>
+            <div class="col-md-6">
+              <p class="book-detail-head-style">Atomic One’s</p>
+              <p class="book-detail-description-style">
+                Many variations of passages of Lorem Ipsum willing araise
+                alteration in some form.
               </p>
               <p class="book-detail-description-style">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi accusantium assumenda ab. Libero soluta esse cupiditate
-                dolor, dolorum assumenda ullam eaque illo iste, nulla architecto
-                optio, ducimus eligendi impedit sed!
+                Soluta corporis totam ad, cupiditate natus iure maxime sequi?
+                Aliquid, quisquam quos!
               </p>
-              <div class="row">
-                <div class="col-md-4 mt-2 vertical-line">
-                  <p class="authors-book-style" style="text-align: left">02</p>
-                  <p class="book-detail-description-style">Books Published</p>
-                </div>
-                <div class="col-md-4 mt-2 vertical-line">
-                  <p class="authors-book-style" style="text-align: left">4.5</p>
-                  <p class="book-detail-description-style">User Reviews</p>
-                </div>
-                <div class="col-md-4 mt-2">
-                  <p class="authors-book-style" style="text-align: left">04</p>
-                  <p class="book-detail-description-style">Best Seller Award</p>
-                </div>
-              </div>
-              <div class="row mt-2" style="background-color: #1b3764">
-                <div class="col-md-4 p-2">
-                  <img
-                    src="./images/qrCode.png"
-                    class="img-fluid"
-                    style="max-width: 100%; height: auto"
-                  />
-                </div>
-                <div class="col-md-8 neglect-css align-items-center">
-                  <p
-                    class="authors-book-style mt-3"
-                    style="text-align: left; color: #ffca42"
-                  >
-                    John Abraham , Ph.d
-                  </p>
-                  <p class="book-detail-description-style mt-2 text-light">
-                    Mail : johnabraham@gmail.com
-                  </p>
-                  <p class="book-detail-description-style text-light">
-                    Phone : (+2) 123 545 9000
-                  </p>
-                </div>
-              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./images/DarkLight.png" class="img-fluid" style="max-width: 100%; height: auto" />
+            </div>
+            <div class="col-md-6">
+              <p class="book-detail-head-style">The Dark Light</p>
+              <p class="book-detail-description-style">
+                Many variations of passages of Lorem Ipsum willing araise
+                alteration in some form.
+              </p>
+              <p class="book-detail-description-style">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Soluta corporis totam ad, cupiditate natus iure maxime sequi?
+                Aliquid, quisquam quos!
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section>
-      <div
-        class="container-fluid d-flex justify-content-center"
-        style="background-color: #1b3764"
-      >
-        <div class="row w-75 h-25 align-items-center">
-          <div class="col-md-5">
-            <p class="text-light h1 title-style">Get Book Copy Today</p>
-            <p class="text-light description-style">
-              This the first true value generator on the Internet. It uses
-              alphas dictionary of over 200 Latin words.
+  <section>
+    <div class="container-fluid d-flex justify-content-center mt-5" style="background-color: #f6f8fc">
+      <div class="row w-75 h-50 align-items-center mb-5">
+        <div class="col-md-6 my-5">
+          <img src="./images/AboutAuthor.png" class="img-fluid" style="max-width: 100%; height: auto" />
+        </div>
+        <div class="col-md-6">
+          <div class="w-75">
+            <p class="authors-book-style" style="text-align: left">
+              About Author
             </p>
-            <button
-              type="button"
-              class="btn btn-outline-warning get-book-now-style btn-lg px-5 py-3"
-            >
-              Order Today
-            </button>
-          </div>
-          <div class="col-md-7 my-5">
-            <img
-              src="./images/Cup.png"
-              class="img-fluid"
-              style="max-width: 100%; height: auto"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div
-        class="container-fluid d-flex justify-content-center"
-        style="background-color: #f4f8ff"
-      >
-        <div class="row w-75 h-50 align-items-center mb-5 g-4 mt-5">
-          <p class="authors-book-style">The Chapter Includes</p>
-          <div class="col-md-5 card">
-            <div class="card-body">
-              <p class="book-detail-head-style card-title">
-                Chapter-01 Get Started Intro
-              </p>
-              <p class="book-detail-description-style">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-                quisquam quos!
-              </p>
+            <p class="book-detail-description-style">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Eligendi accusantium assumenda ab. Libero soluta esse cupiditate
+              dolor, dolorum assumenda ullam eaque illo iste, nulla architecto
+              optio, ducimus eligendi impedit sed!
+            </p>
+            <div class="row">
+              <div class="col-md-4 mt-2 vertical-line">
+                <p class="authors-book-style" style="text-align: left">02</p>
+                <p class="book-detail-description-style">Books Published</p>
+              </div>
+              <div class="col-md-4 mt-2 vertical-line">
+                <p class="authors-book-style" style="text-align: left">4.5</p>
+                <p class="book-detail-description-style">User Reviews</p>
+              </div>
+              <div class="col-md-4 mt-2">
+                <p class="authors-book-style" style="text-align: left">04</p>
+                <p class="book-detail-description-style">Best Seller Award</p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-5 card">
-            <div class="card-body">
-              <p class="book-detail-head-style card-title">
-                Chapter-01 Get Started Intro
-              </p>
-              <p class="book-detail-description-style">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-                quisquam quos!
-              </p>
-            </div>
-          </div>
-          <div class="col-md-5 card">
-            <div class="card-body">
-              <p class="book-detail-head-style card-title">
-                Chapter-01 Get Started Intro
-              </p>
-              <p class="book-detail-description-style">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-                quisquam quos!
-              </p>
-            </div>
-          </div>
-          <div class="col-md-5 card">
-            <div class="card-body">
-              <p class="book-detail-head-style card-title">
-                Chapter-01 Get Started Intro
-              </p>
-              <p class="book-detail-description-style">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-                quisquam quos!
-              </p>
+            <div class="row mt-2" style="background-color: #1b3764">
+              <div class="col-md-4 p-2">
+                <img src="./images/qrCode.png" class="img-fluid" style="max-width: 100%; height: auto" />
+              </div>
+              <div class="col-md-8 neglect-css align-items-center">
+                <p class="authors-book-style mt-3" style="text-align: left; color: #ffca42">
+                  John Abraham , Ph.d
+                </p>
+                <p class="book-detail-description-style mt-2 text-light">
+                  Mail : johnabraham@gmail.com
+                </p>
+                <p class="book-detail-description-style text-light">
+                  Phone : (+2) 123 545 9000
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <div class="footer-design justify-content-center align-items-center">
-        <p class="footer-text-style">@2023 Copyright: Pages</p>
+  <section>
+    <div class="container-fluid d-flex justify-content-center" style="background-color: #1b3764">
+      <div class="row w-75 h-25 align-items-center">
+        <div class="col-md-5">
+          <p class="text-light h1 title-style">Get Book Copy Today</p>
+          <p class="text-light description-style">
+            This the first true value generator on the Internet. It uses
+            alphas dictionary of over 200 Latin words.
+          </p>
+          <button type="button" class="btn btn-outline-warning get-book-now-style btn-lg px-5 py-3">
+            Order Today
+          </button>
+        </div>
+        <div class="col-md-7 my-5">
+          <img src="./images/Cup.png" class="img-fluid" style="max-width: 100%; height: auto" />
+        </div>
       </div>
-    </footer>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid d-flex justify-content-center" style="background-color: #f4f8ff">
+      <div class="row w-75 h-50 align-items-center mb-5 g-4 mt-5">
+        <p class="authors-book-style">The Chapter Includes</p>
+        <div class="col-md-5 card">
+          <div class="card-body">
+            <p class="book-detail-head-style card-title">
+              Chapter-01 Get Started Intro
+            </p>
+            <p class="book-detail-description-style">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
+              quisquam quos!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5 card">
+          <div class="card-body">
+            <p class="book-detail-head-style card-title">
+              Chapter-01 Get Started Intro
+            </p>
+            <p class="book-detail-description-style">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
+              quisquam quos!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5 card">
+          <div class="card-body">
+            <p class="book-detail-head-style card-title">
+              Chapter-01 Get Started Intro
+            </p>
+            <p class="book-detail-description-style">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
+              quisquam quos!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5 card">
+          <div class="card-body">
+            <p class="book-detail-head-style card-title">
+              Chapter-01 Get Started Intro
+            </p>
+            <p class="book-detail-description-style">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
+              quisquam quos!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-design justify-content-center align-items-center">
+      <p class="footer-text-style">@2023 Copyright: Pages</p>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
 </html>
