@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/sign-up.css" />
+		<title>Sign up</title>
+	</head>
+	<body>
+		<main>
+			<section class="hero">
+				<img src="images/library.jpg" alt="library" />
+			</section>
+			<section class="form">
+				<h1>Create your Account</h1>
+				<form>
+					<div>
+						<div>
+							<input
+								type="text"
+								id=" first-name"
+								name="Firstname"
+								required
+								placeholder="First name"
+							/>
+							<label for="first-name">error</label>
+						</div>
+						<div>
+							<input
+								type="text"
+								name="Lastname"
+								id="last-name"
+								placeholder="Last name"
+							/>
+							<label for="last-name">error</label>
+						</div>
+					</div>
+					<input type="text" name="Username" placeholder="Username" />
+					<input type="text" name="Email" placeholder="Email / Phone No." />
+					<input type="password" name="Password" placeholder="Password" />
+					<input
+						type="password"
+						name="Confirm"
+						placeholder="Confirm Password"
+					/>
+					<button type="submit">Sign up</button>
+				</form>
+			</section>
+		</main>
+		<script src="scripts/sign-up.js" />
+	</body>
+</html>

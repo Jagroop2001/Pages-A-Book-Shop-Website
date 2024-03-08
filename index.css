@@ -1,110 +1,110 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Cardo", serif;
-  height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Cardo", serif;
+	height: 100%;
 }
 
 html {
-  height: 100%;
+	height: 100%;
 }
 .jumbotron-style {
-  background-color: #1b3764;
+	background-color: #1b3764;
 }
 .bg-light {
-  background-color: none !important;
+	background-color: none !important;
 }
 
 .social-link-style {
-  height: 2.2rem;
-  width: 2.2rem;
+	height: 2.2rem;
+	width: 2.2rem;
 }
 
 button.btn.btn-warning.px-4 {
-  border-radius: 0;
+	border-radius: 0;
 }
 
 button.navbar-toggler.navbar-hamburger-style {
-  color: white;
-  background: white;
+	color: white;
+	background: white;
 }
 
 .welcome-style {
-  font-family: "Cardo", serif;
-  font-weight: 400;
-  font-size: 24px;
+	font-family: "Cardo", serif;
+	font-weight: 400;
+	font-size: 24px;
 }
 
 .title-style {
-  font-family: "Cardo", serif;
-  font-weight: 700;
+	font-family: "Cardo", serif;
+	font-weight: 700;
 }
 
 .description-style {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 19px;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 19px;
 }
 
 .order-btn-style {
-  border-radius: 0px;
+	border-radius: 0px;
 }
 
 .free-demo-style {
-  font-family: "Cardo", serif;
-  font-weight: 700;
-  font-size: 18px;
-  align-self: center;
+	font-family: "Cardo", serif;
+	font-weight: 700;
+	font-size: 18px;
+	align-self: center;
 }
 
 .authors-book-style {
-  font-family: "Cardo", serif;
-  font-size: 35px;
-  font-weight: 700;
-  text-align: center;
-  color: #1b3764;
+	font-family: "Cardo", serif;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	color: #1b3764;
 }
 
 .book-detail-head-style {
-  font-family: "Cardo", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  color: #1b3764;
+	font-family: "Cardo", serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	color: #1b3764;
 }
 
 .book-detail-description-style {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  color: #000000;
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	color: #000000;
 }
 
 .vertical-line {
-  border-right: 1px solid #ffca42;
+	border-right: 1px solid #ffca42;
 }
 .neglect-css p {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 button.btn.btn-outline-warning.get-book-now-style.btn-lg {
-  border-radius: 0px;
+	border-radius: 0px;
 }
 .col-md-5.card {
-  margin-right: 2rem;
+	margin-right: 2rem;
 }
 
 .footer-design {
-  height: 5rem;
-  background-color: #1b3764;
-  display: flex;
+	height: 5rem;
+	background-color: #1b3764;
+	display: flex;
 }
 
 p.footer-text-style {
-  color: white;
-  font-size: 20px;
-  font-weight: 500;
-  align-self: end;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	align-self: end;
 }
