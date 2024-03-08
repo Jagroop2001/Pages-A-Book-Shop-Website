@@ -1,27 +1,65 @@
 const form = document.forms[0];
 
 const validate = (event) => {
-	var firstNameInput = document.getElementById("first-name");
-	var firstNameError = document.getElementById("first-name-error");
-	var firstNameValue = firstNameInput.value.trim();
+	const firstName = document.getElementById("first-name");
+	const firstNameError = document.getElementById("first-name-error");
+	const lastName = document.getElementById("last-name");
+    const lastNameError = document.getElementById("last-name-error");
+    const userName = document.getElementById("user-name");
+    const userNameError = document.getElementById("user-name-error");
+    const email = document.getElementById("email");
+    const emailError = document.getElementById("email-error");
+    const password = document.getElementById("password");
+    const passwordError = document.getElementById("password-error");
+    const confirmpassword = document.getElementById("confirm-password");
+    const confirmpasswordError = document.getElementById("confirm-password-error");
 
-	if (firstNameValue === "") {
-		firstNameError.textContent = "First name is required";
-		event.preventDefault();
-	} else {
-		firstNameError.textContent = "";
-	}
+
+    var result=true;
+
+
+	if (firstName.value.trim() === "") {
+        firstNameError.textContent = "First name is required";
+        result = false;
+    }
+    
+
+	if (lastName.value.trim() === "") {
+        lastNameError.textContent = "Last name is required";
+        result = false;
+    }
+    if (userName.value.trim() === "") {
+			userNameError.textContent = "Username is required";
+			result = false;
+    }
+    if (email.value.trim() === "") {
+			emailError.textContent = "Email/Phone no. is required";
+			result = false;
+    }
+    if (password.value.length<=8) {
+			passwordError.textContent = "Password is lesser than 8 characters";
+			result = false;
+    }
+     if (password.value!==confirmpassword.value) {
+			confirmpasswordError.textContent = "Passwords don't match";
+			result = false;
+    }
+    
+    return result;
+    
 };
 
 form.addEventListener("submit", (event) => {
 	event.preventDefault();
+    if (!validate(event)) {
+        return;
+    }
 
 	const fname = form.querySelector('[name="Firstname"]').value;
 	const lname = form.querySelector('[name="Lastname"]').value;
 	const usname = form.querySelector('[name="Username"]').value;
 	const mail = form.querySelector('[name="Email"]').value;
 	const pwd = form.querySelector('[name="Password"]').value;
-	const conpwd = form.querySelector('[name="Confirm"]').value;
 
 	const data = {
 		fname,
