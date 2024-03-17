@@ -161,6 +161,16 @@ p.footer-text-style {
   }
 
 }
+
+.orderForm {
+  background-image: url("./images/Logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.add
+
 @media(max-width:767px) {
   .my-5 {
     margin-top: 0rem !important;
