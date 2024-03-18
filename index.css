@@ -46,7 +46,7 @@ button.navbar-toggler.navbar-hamburger-style {
 
 .description-style {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 19px;
 }
 
@@ -182,4 +182,32 @@ p.footer-text-style {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+.background-set{
+  background:url(images/background.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.background-set::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.433);
+}
+.container{
+  max-width: 100VW;
+}
+.forefrontpage-img img{
+  position: relative;
+}
+.text-color{
+  color: white !important;
+  font-weight: 400;
 }
