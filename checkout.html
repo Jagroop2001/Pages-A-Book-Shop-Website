@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet" />
@@ -19,12 +20,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            margin-top: 50px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        input,
+        select {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin-top: 3px;
+            width: 100%;
+        }
+
+        .submit-button {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div>
-            <div class="jumbotron jumbotron-fluid jumbotron-style">
+            <div class="jumbotron jumbotron-fluid jumbotron-style ">
                 <div class="fixed-nav-parant">
                     <div class="container fixed-nav">
                         <nav class="navbar navbar-expand-lg">
@@ -40,19 +86,19 @@
                                 </a>
                                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://www.facebook.com"><i
+                                        <a class="nav-link" href="https://facebook.com"><i
                                                 class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://www.twitter.com"><i
+                                        <a class="nav-link" href="https://twitter.com"><i
                                                 class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://www.linkedin.com"><i
-                                                class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                                        <a class="nav-link" href="https://linkedin.com"><i class="fa-brands fa-linkedin"
+                                                style="color: #ffffff;"></i></a>
                                     </li>
                                 </ul>
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                     <li class="nav-item">
                                         <a class="nav-link text-white" href="index.html">Home</a>
                                     </li>
@@ -80,73 +126,60 @@
                         </nav>
                     </div>
                 </div>
-                <br>
-                <div class="container d-flex justify-content-center my-5">
-                    <div class="row w-90 h-50 align-items-center">
-
-                        <div class="container align-items-center">
-                            <p class="text-light h3">
-                                <u>Our Services</u>
-                            </p>
-                            <br>
-                            <p class="text-light h4">1. <u>Book Selection:</u> Our team of dedicated readers carefully
-                                curates a diverse selection of books spanning various genres, ensuring that there's
-                                something for everyone. From bestsellers to hidden gems, we handpick each title to offer
-                                a collection that appeals to a wide range of tastes and interests.</p>
-
-                            <br>
-                            <p class="text-light h4">2. <u>Personalized Recommendations:</u> Discover your next great
-                                read with our personalized recommendation service. By analyzing your reading preferences
-                                and browsing history, we provide tailored suggestions that match your unique tastes,
-                                making it easier than ever to find the perfect book.</p>
-
-                            <br>
-                            <p class="text-light h4">3. <u>Effortless Ordering:</u> With our user-friendly interface and
-                                intuitive design, ordering your favorite books is quick, easy, and hassle-free. Simply
-                                browse our catalog, add your selections to the cart, and proceed to checkout with
-                                confidence, knowing that your order will be processed swiftly and securely.</p>
-
-                            <br>
-                            <p class="text-light h4">4. <u>Fast and Reliable Delivery:</u> We understand the excitement
-                                of receiving a new book, which is why we prioritize fast and reliable delivery. Whether
-                                you're eagerly awaiting the latest release or stocking up on classics, our shipping
-                                partners ensure that your order arrives promptly and in pristine condition.</p>
-
-                            <br>
-                            <p class="text-light h4">5. <u>Exceptional Customer Service:</u> Have a question or need
-                                assistance? Our dedicated customer service team is here to help. From inquiries about
-                                product availability to assistance with returns or exchanges, we strive to provide
-                                prompt and helpful support to ensure your shopping experience is nothing short of
-                                exceptional.
-                            </p>
-
-                            <br>
-                            <p class="text-light h4">6. <u>Community Engagement:</u> Beyond just selling books, we aim
-                                to foster a vibrant community of readers. Through our blog, social media channels, and
-                                interactive forums, we provide opportunities for readers to connect, share
-                                recommendations, and engage in discussions about their favorite books and authors.</p>
-
-                            <br>
-                            <p class="text-light h3">At <u>Pages</u>, we're more than just a bookstore—we're your
-                                trusted partner in the world of literature. Explore our services today and embark on a
-                                journey of literary discovery!</p>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div style="height: 10px"></div>
             </div>
         </div>
     </header>
-
-
+    <br><br>
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <div class="mb-3">
+                    <label for="paymentMethod" class="form-label">Payment Method</label>
+                    <br>
+                    <img src="images/VISA-logo.png" alt="VISA" style="width: 70px; height: 50px;margin-right: 1%;">
+                    <img src="images/MasterCard-logo.png" alt="MasterCard"
+                        style="width: 70px; height: 45px;margin-right: 1%;">
+                    <img src="images/Rupay-Logo.png" alt="Rupay" style="width: 70px; height: 70px;margin-right: 1%;">
+                    <select id="paymentMethod" name="paymentMethod" class="form-select">
+                        <option value="creditCard">Credit Card</option>
+                        <option value="debitCard">Debit Card</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="cardNumber" class="form-label">Card Number</label>
+                    <input type="number" id="cardNumber" name="cardNumber" placeholder="Enter card number" min="1000"
+                        max="9999999999999999" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="cardHolderName" class="form-label">Card Holder Name</label>
+                    <input type="text" id="cardHolderName" name="cardHolderName" placeholder="Enter card holder name"
+                        class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="expirationDate" class="form-label">Expiration Date</label>
+                    <input type="date" id="expirationDate" name="expirationDate" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="cvv" class="form-label">CVV</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="Enter CVV" min="1" max="999"
+                        class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="sum" class="form-label">Sum: $0.00</label>
+                    <input type="hidden" id="sum" name="sum" value="0.00">
+                </div>
+                <button type="submit" class="submit-button">Place Order</button>
+            </form>
+        </div>
+    </div>
     <footer>
         <div class="footer-design justify-content-center align-items-center">
             <p class="footer-text-style">@2023 Copyright: Pages</p>
         </div>
     </footer>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <!-- Add the bootstrap JS URL -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
-</html>
+</body>
