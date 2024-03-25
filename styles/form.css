@@ -1,0 +1,42 @@
+.feedback-section .row {
+    display:flex ;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.feedback-section .row form{
+    flex: 1 1 45rem;
+    background:#0000005d;
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid rgb(221, 255, 0);
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.feedback-section .row form .box{
+    width: 100%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    border: 2px solid;
+    font-size: 1rem;
+    color: rgb(233, 233, 233);
+    text-transform: none;
+    padding: 1rem;
+    border: 1px solid yellow;
+    background-color: rgba(0, 0, 0, 0.611);
+}
+.feedback-section .row form .paragraph{
+    
+    height: 40vh;
+}
+.feedback-section .row form .btn{
+    background-color: #232020a5;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5rem;
+    padding: 1rem 4rem;                     
+}
+.feedback-section .row form .btn:hover{
+    background-color: #232020e9;
+}
