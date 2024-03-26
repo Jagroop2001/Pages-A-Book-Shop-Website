@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.5/src/app/ci.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.5/src/app/ci.min.css"
+		/>
+		<link rel="stylesheet" href="styles/login.css" />
+		<title>Login</title>
+	</head>
+
+	<body>
+		<main>
+			<section class="hero">
+				<img src="images/loginimg.avif" alt="library" />
+			</section>
+			<section class="form">
+				<h1>Login</h1>
+				<form>
+					<div style="flex-direction: column">
+						<input
+							type="text"
+							id="user-name"
+							name="Username"
+							placeholder="Username"
+						/>
+						<label for="user-name" id="user-name-error"></label>
+					</div>
+					<div style="flex-direction: column">
+						<input
+							type="password"
+							id="password"
+							name="Password"
+							placeholder="Password"
+						/>
+						<label for="password" id="password-error"></label>
+					</div>
+					<div style="display: flex; justify-content: space-between">
+						<h6>Forgot password?</h6>
+						<div
+							style="
+								display: flex;
+								align-items: center;
+								justify-content: center;
+							"
+						>
+							<input
+								style="width: auto"
+								id="remember-me"
+								checked
+								type="checkbox"
+							/>
+							<label
+								style="
+									color: black;
+									font-style: normal;
+									font-weight: bold;
+									font-size: 11px;
+								"
+								for="remember-me"
+								>Remember Me</label
+							>
+						</div>
+					</div>
+					<button type="submit">Login</button>
+					<div class="or-login">Or login with</div>
+					<div
+						style="
+							display: grid;
+							grid-template-columns: repeat(4, 1fr);
+							align-items: center;
+							justify-items: center;
+							width: 100%;
+							gap: 1px;
+						"
+					>
+						<a class="oauth-button" href="#"
+							><i class="ci ci-google ci-xl"></i
+						></a>
+						<a class="oauth-button" href="#"
+							><i class="ci ci-facebook ci-xl"></i
+						></a>
+						<a class="oauth-button" href="#"
+							><i class="ci ci-microsoft ci-xl"></i
+						></a>
+						<a class="oauth-button" href="#"
+							><i class="ci ci-apple ci-xl"></i
+						></a>
+					</div>
+				</form>
+			</section>
+		</main>
+		<script src="scripts/login.js" />
+	</body>
+</html>
