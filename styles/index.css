@@ -72,8 +72,8 @@ button.navbar-toggler.navbar-hamburger-style {
 	font-size: 35px;
 	font-weight: 700;
 	text-align: center;
-  /* color: #1b3764; */
-	color: #01fffb;
+  color: #1b3764;
+	color: #01fffb !important;
 }
 
 .book-detail-head-style {
@@ -198,8 +198,8 @@ p.footer-text-style {
   transform: translateX(0);
 }
 .background-set-without-blur{
+  background:url(/images/background.avif) !important;
   /* background:url(images/background.avif); */
-  background:url(/images/background.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -208,8 +208,8 @@ p.footer-text-style {
   margin-bottom: 0;
 }
 .background-set{
-  /* background:url(images/background.avif); */
   background:url(/images/background.avif);
+  /* background:url(images/background.avif); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
