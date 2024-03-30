@@ -73,6 +73,7 @@ button.navbar-toggler.navbar-hamburger-style {
 	font-size: 35px;
 	font-weight: 700;
 	text-align: center;
+  /* color: #1b3764; */
 	color: #01fffb;
 }
 
@@ -123,7 +124,7 @@ p.footer-text-style {
 }
 
 .fixed-nav {
-  background-color: #222831; 
+  background-color: #222831; /*color palat is used from https://colorhunt.co/palette/22283131363f76abaeeeeeee color hunt site*/
   position: fixed;
   max-width: 100vw !important;
   --bs-gutter-x: 14rem;
@@ -198,6 +199,7 @@ p.footer-text-style {
   transform: translateX(0);
 }
 .background-set-without-blur{
+  /* background:url(images/background.avif); */
   background:url(/images/background.avif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,6 +209,7 @@ p.footer-text-style {
   margin-bottom: 0;
 }
 .background-set{
+  /* background:url(images/background.avif); */
   background:url(/images/background.avif);
   background-repeat: no-repeat;
   background-size: cover;
