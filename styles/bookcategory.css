@@ -1,0 +1,44 @@
+/*color palat is used from https://colorhunt.co/palette/22283131363f76abaeeeeeee color hunt site*/
+.categorycard{
+    border: 2px solid ;
+    margin: 2rem;
+    background-color: #31363F;
+    border-radius: 0.5rem;
+
+}
+.categorysection{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(20rem,1fr));
+    gap: 0.5rem;
+    padding: 2rem;
+    background-color: #EEEEEE;
+}
+.poster{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 0.5rem;
+    margin:1rem;
+    background-color: white;
+}
+.btncard{
+    font-size: rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.poster img{
+    position: relative;
+    width: 15rem;
+}
+.parahome h4{
+    text-align: center;
+    color: white;
+}
+.parahome p{
+    color: rgba(255, 255, 255, 0.853);
+    padding: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1remx;
+}
+.parahome{
+    height: 35vh;
+}

@@ -10,6 +10,9 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" href="styles/index.css" />
   <link rel="stylesheet" href="styles/slider.css">
+  <link rel="stylesheet" href="styles/bookcategory.css">
+  <link rel="stylesheet" href="styles/bestseller.css">
+  <link rel="stylesheet" href="styles/form.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet" />
@@ -165,60 +168,85 @@
       </div>
     </div>
   </header>
-  <section>
-    <p class="authors-book-style m-3">Author's Book Include</p>
-    <div class="container d-flex justify-content-center my-5">
-      <div class="row w-75 h-50 align-items-center">
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="./images/AtomicOne.png" class="img-fluid" style="max-width: 100%; height: auto" />
-            </div>
-            <div class="col-md-6">
-              <p class="book-detail-head-style">Atomic One’s</p>
-              <p class="book-detail-description-style">
-                Many variations of passages of Lorem Ipsum willing araise
-                alteration in some form.
-              </p>
-              <p class="book-detail-description-style">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Soluta corporis totam ad, cupiditate natus iure maxime sequi?
-                Aliquid, quisquam quos!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="./images/DarkLight.png" class="img-fluid" style="max-width: 100%; height: auto" />
-            </div>
-            <div class="col-md-6">
-              <p class="book-detail-head-style">The Dark Light</p>
-              <p class="book-detail-description-style">
-                Many variations of passages of Lorem Ipsum willing araise
-                alteration in some form.
-              </p>
-              <p class="book-detail-description-style">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Soluta corporis totam ad, cupiditate natus iure maxime sequi?
-                Aliquid, quisquam quos!
-              </p>
-            </div>
-          </div>
-        </div>
+  <!-- book category section starts -->
+  <!-- Slider starts  -->
+  <div class="slider-container background-set-without-blur">
+    <div class="title">Our Top category</div>
+  </div>
+  </section>
+  <section class="categorysection background-set-without-blur">
+    <div class="categorycard">
+      <div class="poster">
+        <img src="images/fictional.jpg" alt="">
+      </div>
+      <div class="parahome">
+        <h4>Fiction</h4>
+        <p>Mystery & Thriller,Romance,Science Fiction & Fantasy,Historical Fiction,Literary Fiction,Contemporary Fiction
+        </p>
+      </div>
+      <div class="btncard">
+        <a href="#"><button>Explore</button></a>
+      </div>
+    </div>
+    <div class="categorycard">
+      <div class="poster">
+        <img src="images/nonfictional.jpg" alt="">
+      </div>
+      <div class="parahome">
+        <h4>Non-Fiction</h4>
+        <p>Biography & Memoir, History,Self-help & Personal Development, Business & Finance, Science & Nature, Cooking,
+          Food & Wine Travel,Arts & Photography</p>
+      </div>
+      <div class="btncard">
+        <a href="#"><button>Explore</button></a>
+      </div>
+    </div>
+    <div class="categorycard">
+      <div class="poster">
+        <img src="images/kids.jpg" alt="">
+      </div>
+      <div class="parahome">
+        <h4>Children's Books</h4>
+        <p>Picture Books, Early Readers, Middle Grade, Educational Books, Activity Books</p>
+      </div>
+      <div class="btncard">
+        <a href="#"><button>Explore</button></a>
+      </div>
+    </div>
+    <div class="categorycard">
+      <div class="poster">
+        <img src="images/special.jpg" alt="">
+      </div>
+      <div class="parahome">
+        <h4>Specialty or Niche</h4>
+        <p>Graphic Novels & Comics, Religion & Spirituality, Health & Wellness, Gardening & DIY, Local Interest, Rare &
+          Collectible Books</p>
+      </div>
+      <div class="btncard">
+        <a href="#"><button>Explore</button></a>
       </div>
     </div>
   </section>
-
+<!-- book category section ends -->
+<!-- best seller author section ends -->
+  <div class="slider-container background-set-without-blur">
+    <div class="title">Bestseller Author of the month</div>
+  </div>
   <section>
-    <div class="container-fluid d-flex justify-content-center mt-5 " style="background-color: #f6f8fc">
-      <div class="row w-75 h-50 align-items-center mb-5">
-        <div class="col-md-6 my-5">
+    <div class="container-fluid d-flex justify-content-center mt-5 background-set-without-blur "
+      style="background-color: #f6f8fc">
+      <div class="row w-75 h-50 align-items-center mb-5 Bestseller-author">
+        <div class="col-md-6 my-5 image">
           <img src="./images/AboutAuthor.png" class="img-fluid" style="max-width: 100%; height: auto" />
         </div>
         <div class="col-md-6">
-          <div class="w-75">
+
+          <div class="col-md-7 my-5 ">
+            <p class="book-detail-description-style gsap1">
+              Congratulations on becoming a best-selling author! Your captivating storytelling has touched countless
+              hearts and minds. Keep inspiring with your incredible talent.
+            </p>
+            <!-- <div class="w-75">
             <p class="authors-book-style" style="text-align: left">
               About Author
             </p>
@@ -234,34 +262,33 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Eligendi accusantium assumenda ab. Libero soluta esse cupiditate
               dolor, dolorum assumenda ullam eaque illo iste, nulla architecto
-              optio, ducimus eligendi impedit sed!
-            </p>
+              optio, ducimus eligendi impedit sed! -->
             <div class="row">
               <div class="col-md-4 mt-2 vertical-line">
-                <p class="authors-book-style" style="text-align: left">02</p>
-                <p class="book-detail-description-style">Books Published</p>
+                <p class="authors-book-style gsap1" style="text-align: left">05</p>
+                <p class="book-detail-description-style gsap1">Books Published</p>
               </div>
               <div class="col-md-4 mt-2 vertical-line">
-                <p class="authors-book-style" style="text-align: left">4.5</p>
-                <p class="book-detail-description-style">User Reviews</p>
+                <p class="authors-book-style gsap1" style="text-align: left">4.5</p>
+                <p class="book-detail-description-style gsap1">User Reviews</p>
               </div>
               <div class="col-md-4 mt-2">
-                <p class="authors-book-style" style="text-align: left">04</p>
-                <p class="book-detail-description-style">Best Seller Award</p>
+                <p class="authors-book-style gsap1" style="text-align: left">04</p>
+                <p class="book-detail-description-style gsap1">Best Seller Award</p>
               </div>
             </div>
-            <div class="row mt-2" style="background-color: #1b3764">
+            <div class="row mt-2 Bestseller-author " style="background-color: #31363F">
               <div class="col-md-4 p-2">
-                <img src="./images/qrCode.png" class="img-fluid" style="max-width: 100%; height: auto" />
+                <img src="./images/qrCode.png" class="img-fluid gsap1" style="max-width: 100%; height: auto" />
               </div>
               <div class="col-md-8 neglect-css align-items-center">
-                <p class="authors-book-style mt-3" style="text-align: left; color: #ffca42">
+                <p class="authors-book-style mt-3 gsap1" style="text-align: left; color: #fae900">
                   John Abraham , Ph.d
                 </p>
-                <p class="book-detail-description-style mt-2 text-light">
+                <p class="book-detail-description-style mt-2 text-light gsap1">
                   Mail : johnabraham@gmail.com
                 </p>
-                <p class="book-detail-description-style text-light">
+                <p class="book-detail-description-style text-light gsap1">
                   Phone : (+2) 123 545 9000
                 </p>
               </div>
@@ -271,16 +298,17 @@
       </div>
     </div>
   </section>
-
+<!-- best seller author section ends -->
+<!-- best selling book section starts -->
+<div class="slider-container background-set-without-blur">
+    <div class="title">Bestselling Book of the month</div>
+</div>
   <section>
-    <div class="container-fluid d-flex justify-content-center" style="background-color: #1b3764">
+    <div class="container-fluid d-flex justify-content-center background-set-without-blur"
+      style="background-color: #1b3764">
       <div class="row w-75 h-25 align-items-center">
         <div class="col-md-5">
-          <p class="text-light h1 title-style">Get Book Copy Today</p>
-          <p class="text-light description-style">
-            This the first true value generator on the Internet. It uses
-            alphas dictionary of over 200 Latin words.
-          </p>
+          <p class="text-light h1 title-style">Discover best-selling book by top author now</p>
           <button type="button" class="btn btn-outline-warning get-book-now-style btn-lg px-5 py-3">
             Order Today
           </button>
@@ -291,63 +319,26 @@
       </div>
     </div>
   </section>
+<!-- best selling book section ends -->
+<!-- feedback form starts-->
+<section class="feedback-section background-set-without-blur">
+  <div class="slider-container background-set-without-blur">
+    <div class="title">Submit Your Feedback</div>
+  </div>
+  <div class="row">
 
-  <section>
-    <div class="container-fluid d-flex justify-content-center" style="background-color: #f4f8ff">
-      <div class="row w-75 h-50 align-items-center mb-5 g-4 mt-5">
-        <p class="authors-book-style">The Chapter Includes</p>
-        <div class="col-md-5 card">
-          <div class="card-body">
-            <p class="book-detail-head-style card-title">
-              Chapter-01 Get Started Intro
-            </p>
-            <p class="book-detail-description-style">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-              quisquam quos!
-            </p>
-          </div>
-        </div>
-        <div class="col-md-5 card">
-          <div class="card-body">
-            <p class="book-detail-head-style card-title">
-              Chapter-01 Get Started Intro
-            </p>
-            <p class="book-detail-description-style">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-              quisquam quos!
-            </p>
-          </div>
-        </div>
-        <div class="col-md-5 card">
-          <div class="card-body">
-            <p class="book-detail-head-style card-title">
-              Chapter-01 Get Started Intro
-            </p>
-            <p class="book-detail-description-style">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-              quisquam quos!
-            </p>
-          </div>
-        </div>
-        <div class="col-md-5 card">
-          <div class="card-body">
-            <p class="book-detail-head-style card-title">
-              Chapter-01 Get Started Intro
-            </p>
-            <p class="book-detail-description-style">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              corporis totam ad, cupiditate natus iure maxime sequi? Aliquid,
-              quisquam quos!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <form action="">
+          <input type="text" placeholder="your name" class="box">
+          <input type="email" placeholder="your email" class="box">
+          <textarea name="feedback" class="box paragraph"  placeholder="your suggetions or feedback"></textarea>
+          <input type="submit" value="book now" class="btn">
+      </form>
 
+  </div>
+
+</section>
+
+<!-- feedback form ends -->
   <footer>
     <hr>
     <div class="footer-design justify-content-center align-items-center" style="background-color: #f4f8ff">
