@@ -1,0 +1,27 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: rgb(31, 31, 31);
+}
+.faq details{
+    margin: 1rem;
+}
+.faq details summary{
+    color: rgb(12, 12, 12);
+    padding: 1rem;
+    background-color: rgb(181, 180, 174);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.faq details p{
+    color: white;
+    border: 1px solid yellow;
+    background-color: black;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    border-radius: 1.5rem;
+}
